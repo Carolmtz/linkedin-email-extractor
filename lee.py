@@ -15,7 +15,7 @@ if __name__ == '__main__':
     search_term = sys.argv[1]
     num_requests = int(sys.argv[2])
     
-    my_api_key = ""                 #Read readme.md to know how to get you api key.
+    my_api_key = "AIzaSyCF1Zpe-YTW9-dxqZb-bbsWQXvuER-FT-Y"                 #Read readme.md to know how to get you api key.
     my_cse_id = "011658049436509675749:gkuaxghjf5u"         #Google CSE which searches possible LinkedIn profile according to query.
 
     service = build("customsearch", "v1", developerKey=my_api_key)
